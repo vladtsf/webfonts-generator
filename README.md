@@ -258,7 +258,7 @@ Default: `true`
 It is possible to not create files and get generated fonts in object
  to write them to files later.
 <br>
-Also results object will have function `generateCss([urls])`
+Also results object will have `generateCss([urls])` and `generateHtml()` functions
 where `urls` is an object with future fonts urls.
 
 ```js

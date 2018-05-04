@@ -74,6 +74,9 @@ describe('webfont', function() {
 			assert.equal(typeof result.generateCss, 'function')
 			var css = result.generateCss()
 			assert.equal(typeof css, 'string')
+			assert.equal(typeof result.generateHtml, 'function')
+			var html = result.generateHtml()
+			assert.equal(html, 'string')
 		})
 	})
 
